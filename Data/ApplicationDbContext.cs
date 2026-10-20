@@ -5,6 +5,7 @@ namespace proyecto_aspnet.Data;
 
 public class ApplicationDbContext : DbContext
 {
+    // Constructor
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
